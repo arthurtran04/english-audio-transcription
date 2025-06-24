@@ -1,0 +1,4 @@
+transformers==4.36.0
+torch==2.2.1
+gradio==5.23.2
+numpy==1.26.4
