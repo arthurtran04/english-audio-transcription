@@ -19,6 +19,7 @@ English Audio Transcription is a Python-based project that streamlines the proce
 ## Prerequirements
 
 - ![Python 3.9](https://img.shields.io/badge/Python-3.9-blue) or above: [Download here](https://python.org/downloads)
+- ![FFmpeg](https://img.shields.io/badge/FFmpeg-green): [Download here](https://ffmpeg.org/download.html)
 
 ## Project Structure
 
