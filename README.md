@@ -13,6 +13,7 @@
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Demo](#demo)
 - [License](#license)
 
 ## Prerequirements
@@ -59,7 +60,7 @@ To install this project, open your Terminal and follow these steps:
 
     ```sh
     $ python3 -m venv .venv
-    source venv/bin/activate
+    source .venv/bin/activate
     pip install -r requirements.txt
     ```
 
@@ -72,10 +73,6 @@ To start the application, run the `app.py` file:
    ```
 This application will run locally at `http://127.0.0.1:7860`:
 
-<img width="600rem" alt="Terminal" src="https://github.com/user-attachments/assets/f38485bb-8630-45bf-affc-e1a173f19e87"/>
-
-The UI:
-
 <img width="600rem" alt="Webpage" src="https://github.com/user-attachments/assets/c24661d0-d5a2-43b9-9ce0-1bea6a3fd69a"/>
 
 Upload your audio file in the left box and click **Submit** button, the application will generate the transcription in the right box:
@@ -83,6 +80,10 @@ Upload your audio file in the left box and click **Submit** button, the applicat
 <img width="600rem" alt="Example" src="https://github.com/user-attachments/assets/67b1802f-319d-42a5-b1c9-1e5cb0dc4fa8"/>
 
 To stop the application, use `Ctrl + C` in the Terminal
+
+## Demo
+
+My demo on Hugging Face Spaces: [link](https://huggingface.co/spaces/josephtran04/english-audio-transcription)
 
 ## License
 
