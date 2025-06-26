@@ -2,7 +2,7 @@
 
 ## Introduction
 
-
+English Audio Transcription is a Python-based project that streamlines the process of converting spoken English audio files into accurate text transcripts. Leveraging modern machine learning models, this repository provides an efficient and user-friendly workflow for automatic speech recognition, making it ideal for transcribing interviews, lectures, meetings, and more.
 
 ## Table of Contents
 
