@@ -2,12 +2,14 @@ import torch
 from transformers import pipeline
 import gradio as gr
 
+device = "cuda:0" if torch.cuda.is_available() else "cpu"
+
 # Initialize the speech recognition pipeline
 pipe = pipeline(
     "automatic-speech-recognition",
     model="openai/whisper-small",
     chunk_length_s=30,
-    device=-1
+    device=devive
 )
 
 # Function to transcribe audio using the OpenAI Whisper model
