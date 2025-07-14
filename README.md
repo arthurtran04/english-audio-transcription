@@ -1,4 +1,4 @@
-# English Audio Transcription using Whisper model
+# English Audio Transcription
 
 ## Introduction
 
